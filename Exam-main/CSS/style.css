@@ -1,0 +1,107 @@
+:root{
+    --maincolor:#391145;
+}
+a{
+    text-decoration: none;
+    color: var(--maincolor);
+}
+a:hover {
+    background-color: rgb(240, 240, 240);
+    box-shadow: 0 2px 4px black;
+    border-radius: 5px;
+  }
+  a:focus {
+    color: blue;
+  }
+  a:active {
+    background-color: black;
+    color: #fff;
+  }
+.container{
+    max-width: 1152px;
+    margin: auto;
+    text-align: center;
+}
+html{
+    color: var(--maincolor);
+}
+nav{
+    background-color:#FFFFFF;
+    padding: 8px 62px;
+}
+main{
+    background-image: url(/image/fon.png);
+   height: 500px;    
+   padding-top: 180px;
+  
+}
+p{
+    margin: auto;
+}
+button{
+    background: #6DD0FE;
+border-radius: 24px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.pos{
+    margin-right: 30px;
+}
+.Font400{
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 18px;
+
+text-align: center;
+}
+.Font700{
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+line-height: 18px;
+
+text-align: center;
+}
+.btnnav{
+    width: 90px;
+    height: 48px;
+}
+.btn-main{
+    width: 255px;
+    height: 60px;
+}
+.SizeH1{
+    font-size: 70px;
+    line-height: 70px;
+
+}
+.SizeH2{
+    font-size: 20px;
+line-height: 24px;
+margin: 26px 0px 37px 0px;
+}
+@media (max-width:1100px){
+    .container{
+        max-width: 800px;
+    }
+    .SizeH1{
+        font-size: 50px;
+        line-height: 50px;
+    }
+    .pos{
+        margin-right: 20px;
+    }
+}
+button:hover{
+    background: #5f96af;
+}
+button:focus {
+    border: solid 2px black;
+    box-shadow: 0 2px 4px black;
+  }
+  

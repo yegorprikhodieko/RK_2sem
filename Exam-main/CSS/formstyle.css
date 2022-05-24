@@ -1,0 +1,29 @@
+.grad{
+    background: #ff3632;
+background: -moz-linear-gradient(left,  #ff3632 0%, #7db9e8 100%);
+background: -webkit-linear-gradient(left,  #ff3632 0%,#7db9e8 100%);
+background: linear-gradient(to right,  #ff3632 0%,#7db9e8 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3632', endColorstr='#7db9e8',GradientType=1 );
+
+}
+header{
+    background: #7db9e8;
+background: -moz-linear-gradient(left, #7db9e8 0%, #25ba2a 100%);
+background: -webkit-linear-gradient(left, #7db9e8 0%,#25ba2a 100%);
+background: linear-gradient(to right, #7db9e8 0%,#25ba2a 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db9e8', endColorstr='#25ba2a',GradientType=1 );
+}
+
+html {
+    height: 100%;
+  }
+  
+  body {
+    margin: 0;
+    color: #fff;
+    /* Растягиваем body по высоте html */
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+  }
+  
