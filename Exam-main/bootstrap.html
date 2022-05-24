@@ -28,25 +28,36 @@
                           <option value="3">Двухподвес</option>
                         </select>
                       </div>
-                      <div class="mb-3 form-check">
-                        <input type="checkbox" required class="form-check-input" id="check1">
-                        <label class="form-check-label" for="check1">Наличие шлема</label>
-                      </div>
+                      <p>Наличие шлема</p>
+                      <div class="form-check">
+                        <label class="form-check-label">
+                            <input type="radio" class="form-check-input" name="optionsRadios" id="check1" value="Да" checked>
+                            Да
+                        </label>
+                    </div>
+                   
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            <input type="radio" class="form-check-input" name="optionsRadios" id="check2" value="нет"> Нет
+                        </label>
+                    </div>
                      <div class="my-3">
                        <label for="exampleInputEmail1" class="form-label">Диаметр колёс</label>
                        <input type="text" class="form-control" placeholder="Введите число" id="exampleInputEmail1">
                      </div>
                      
                     <div class="my-3">
-                        <label for="exampleInputPassword1" class="form-label">Производитель</label>
-                        <input type="text" placeholder="Введите название" class="form-control" id="exampleInputPassword1">
+                        <label for="shop" class="form-label">Производитель</label>
+                        <input type="text" placeholder="Введите название" class="form-control" id="shop">
                     </div>
                      <button type="button" class="btn-seccondary">Отмена</button>
-                     <button type="submit" class="btn btn-primary">Submit</button>
+                     <button type="submit" class="btn btn-primary" id="snd">Submit</button>
                    </form>
                 </div>
             </div>
         </div>
+
+        
         
     </main>
     <footer>
